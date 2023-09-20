@@ -1,0 +1,257 @@
+:root{
+    --color: #434455;
+    --color-white: #FFFFFF;
+    --сolor-iris: #4D5AE5;
+    --color-navy: #2E2F42;
+    --color-hover: #404bbf;
+    --color-section: #2e2f42;
+}
+
+body{
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    background-color:var(--color-white);
+    color: var(--color);
+}
+
+h1{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: var(--color-navy);
+}
+
+ul, li{
+ list-style: none;
+}
+
+.menu-link:hover
+{
+    color: var(--color-hover);
+}
+
+.menu-link:focus
+{
+    color: var(--color-hover);
+}
+
+.menu-nav{
+    font-family:Roboto;
+    font-size:16px;
+    font-weight:500;
+    line-height:24px;
+    letter-spacing:0.02em;
+    
+}
+
+.button-order{
+    background-color:var(--сolor-iris);
+    color:var(--color-white);
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.04em;
+}
+
+.main-slider{
+    background-color:var(--color-navy);
+}
+
+.logo-text-studio{
+    color: var(--color-navy);
+}
+
+.logo-footer{
+    color: #f4f4fd;
+}
+
+nav .list{
+    list-style: none;
+    justify-content: center;
+    
+    }
+
+.address-list{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color);
+}
+
+a .list{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color); 
+} 
+
+
+
+.link{
+    text-decoration:none;
+    color:var(--color-navy);
+}
+
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+nav .logo{
+    font-family:"Raleway", sans-serif;
+    color: var(--сolor-iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-family:"Raleway", sans-serif;
+    color: var(--сolor-iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.info-mail-tell{
+    font-style: normal;
+}
+
+.address-list:hover,
+.address-list:focus{
+    color: #404bbf;
+}
+
+list:hover,
+list:focus{
+    color: #404bbf;
+}
+
+.button-order:hover,
+.button-order:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.header-Business-strategy{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
+}
+
+.list-business-strategy{
+    font-size: 20px;
+    line-height: 1.2;
+    color:#2e2f42 ;
+}
+
+.key-features{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.paragraf-business-strategy{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-section-images{
+
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2e2f42;
+}
+
+.team-img-section{
+ background-color: #F4F4FD;
+
+}
+
+.team-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+}
+
+.team-card-list{
+    background-color: #FFFFFF;
+}
+
+.header-list-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+
+}
+
+.footer{
+    background-color: #2e2f42;
+
+}
+
+.footer-par{
+    font-weight: 400;
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.menu-button{
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500;
+    font-size: 16px ;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#4d5ae5;
+    background-color:#F4F4FD;
+    cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.web-cases{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color:#2e2f42;
+}
+
+.web-category{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.vis{
+    visibility: hidden;
+}
