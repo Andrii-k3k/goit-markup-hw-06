@@ -8,13 +8,19 @@
 }
 
 body{
-    margin: auto;
     font-family: "Roboto", sans-serif;
     background-color:var(--color-white);
     color: var(--color);
 }
 
-h1{
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.slider-title{
+    width: 495px;
+    
+    margin: 0 10px 10px 10px;
     color: var(--color-white);
     font-family: Roboto;
     font-size: 56px;
@@ -25,9 +31,6 @@ h1{
     background-color: var(--color-navy);
 }
 
-ul, li{
- list-style: none;
-}
 
 img{
     display: block;
@@ -82,9 +85,11 @@ nav .list{
     }
 
 .address-list{
+    display: inline-block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color);
+    padding: 24px 0;
 }
 
 a .list{
@@ -94,7 +99,11 @@ a .list{
     color:var(--color); 
 } 
 
-
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .link{
     text-decoration:none;
@@ -117,8 +126,6 @@ a .list{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 76px
 }
 
@@ -268,7 +275,6 @@ color: #434455;
     }
 
 .container{
-    display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -299,8 +305,13 @@ color: #434455;
     gap: 40px;
     display: flex;
     align-items: center;
+    
 }
 
 .nav{
     margin-left: auto;
+}
+
+.header-container{
+    display: flex;
 }
