@@ -29,6 +29,10 @@ ul, li{
  list-style: none;
 }
 
+img{
+    display: block;
+}
+
 .menu-link:hover
 {
     color: var(--color-hover);
@@ -277,7 +281,7 @@ color: #434455;
 }
 
 .section-header{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header{
