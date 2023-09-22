@@ -290,6 +290,7 @@ background: var(--CLOUD, #F4F4FD);
 .menu-button:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .web-cases{
@@ -426,4 +427,8 @@ padding-bottom: 120px;
  display: flex;
  flex-wrap: wrap;
  gap: 48px 24px ;
+}
+
+.position-cases-div{
+
 }
