@@ -125,6 +125,7 @@ nav .logo{
 
 .info-mail-tell{
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-list:hover,
@@ -268,12 +269,35 @@ color: #434455;
     }
 
 .container{
+    display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    width: 1440px;
-    padding: 0 156px;
+}
+
+.section-header{
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
+.header{
+    display: flex;
+    align-items: center;
 }
 
 .header-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-ul{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.adress-ul{
+    gap: 40px;
     display: flex;
     align-items: center;
 }
