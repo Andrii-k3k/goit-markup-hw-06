@@ -299,6 +299,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 color:#2e2f42;
+margin-bottom: 8px;
 }
 
 .web-category{
@@ -429,6 +430,9 @@ padding-bottom: 120px;
  gap: 48px 24px ;
 }
 
-.position-cases-div{
+.positicases-div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
