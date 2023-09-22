@@ -18,9 +18,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .slider-title{
-    width: 495px;
-    
-    margin: 0 10px 10px 10px;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     color: var(--color-white);
     font-family: Roboto;
     font-size: 56px;
@@ -56,6 +57,7 @@ img{
 }
 
 .button-order{
+    display: block;
     background-color:var(--сolor-iris);
     color:var(--color-white);
     font-family:"Roboto", sans-serif;
@@ -63,6 +65,11 @@ img{
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.04em;
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .main-slider{
@@ -292,7 +299,6 @@ color: #434455;
 
 .header-container {
     display: flex;
-    align-items: center;
 }
 
 .menu-ul{
@@ -312,6 +318,3 @@ color: #434455;
     margin-left: auto;
 }
 
-.header-container{
-    display: flex;
-}
