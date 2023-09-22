@@ -202,6 +202,8 @@ list:focus{
 
 .team-img-section{
  background-color: #F4F4FD;
+ padding-top: 120px;
+ padding-bottom: 120px
 
 }
 
@@ -355,7 +357,7 @@ padding-bottom: 120px;
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 72px;
-    padding-bottom: 120px;
+
 }
 
 .work-cases,
