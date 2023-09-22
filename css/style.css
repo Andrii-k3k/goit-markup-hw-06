@@ -347,3 +347,16 @@ padding-bottom: 120px;
     padding-top: 72px;
     padding-bottom: 120px;
 }
+
+.ul-person-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.paragraf-business-strategy,
+.header-list-name{
+    text-align: center;
+}
