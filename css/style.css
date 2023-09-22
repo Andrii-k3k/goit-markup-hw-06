@@ -193,13 +193,13 @@ list:focus{
 }
 
 .header-section-images{
-
  font-size: 36px;
  line-height: 1.11;
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
  color: #2e2f42;
+ margin-bottom: 72px
 }
 
 .team-img-section{
@@ -347,12 +347,12 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.section-3-image{
+.section-tree-image{
  padding-top: 72px;
  padding-bottom: 120px;
 }
 
-.ul-3-image{
+.ul-tree-image{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
