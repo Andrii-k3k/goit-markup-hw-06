@@ -334,3 +334,16 @@ color: #434455;
 padding-top: 120px;
 padding-bottom: 120px;
 }
+
+.section-3-image{
+ padding-top: 72px;
+ padding-bottom: 120px;
+}
+
+.ul-3-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
