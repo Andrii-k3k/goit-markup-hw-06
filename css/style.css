@@ -130,6 +130,7 @@ a .list{
 }
 
 .logo{
+    display: inline-block;
     font-family:"Raleway", sans-serif;
     color: var(--сolor-iris);
     font-weight: 800;
@@ -138,6 +139,7 @@ a .list{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px
+    
 }
 
 .info-mail-tell{
