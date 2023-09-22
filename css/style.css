@@ -107,16 +107,6 @@ a .list{
     letter-spacing: 0.02em;
 }
 
-nav .logo{
-    font-family:"Raleway", sans-serif;
-    color: var(--сolor-iris);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
 .logo{
     font-family:"Raleway", sans-serif;
     color: var(--сolor-iris);
@@ -125,6 +115,8 @@ nav .logo{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .info-mail-tell{
