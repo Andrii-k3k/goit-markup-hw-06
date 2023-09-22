@@ -262,6 +262,10 @@ list:focus{
     color:#4d5ae5;
     background-color:#F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
 }
 
 .menu-button:hover,
@@ -378,4 +382,16 @@ padding-bottom: 120px;
 .position-name{
     padding-top:32px;
     padding-bottom:32px;
+}
+
+.port-menu{
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 96px;
+}
+
+.menu-port-li{
+    
 }
