@@ -35,7 +35,6 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: var(--color-navy);
 }
 
 img {
@@ -77,9 +76,15 @@ img {
 }
 
 .main-slider {
-  background-color: var(--color-navy);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/mainslider.jpg);
   padding: 188px 0;
 }
+  
 
 .logo-text-studio {
   color: var(--color-navy);
@@ -128,6 +133,8 @@ a .list {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  position: relative;
+  color: #404bbf; 
 }
 
 .logo {
@@ -335,6 +342,9 @@ list:focus {
 
 .section-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08)
 }
 
 .header {
