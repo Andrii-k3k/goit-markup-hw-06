@@ -523,4 +523,5 @@ list:focus {
 .icon-section-two{
   background: var(--CLOUD, #F4F4FD);
   padding: 24px 100px;
+  border-radius: 4px;
 }
