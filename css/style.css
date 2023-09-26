@@ -436,8 +436,10 @@ list:focus {
 /* ДЗ 4 */
 
 .company-section {
-    padding-bottom: 120px;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
+
 .company-header{
     font-size: 36px;
     line-height: 1.11;
