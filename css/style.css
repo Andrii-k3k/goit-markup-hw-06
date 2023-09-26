@@ -149,6 +149,16 @@ a .list {
   padding: 24px 0;
   position: relative;
   color: #404bbf; 
+
+}
+.menu-link::after{
+  content: '';
+  position: absolute;
+  left: 0; 
+  height: 4px;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .logo {
