@@ -223,6 +223,7 @@ list:focus {
 }
 
 .key-features {
+  margin-top: 8px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -516,4 +517,10 @@ list:focus {
   align-items: center;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+}
+
+
+.icon-section-two{
+  background: var(--CLOUD, #F4F4FD);
+  padding: 24px 100px;
 }
