@@ -757,5 +757,5 @@ list:focus {
 }
 
 .sbv-icon-team {
-  color: var(--color-svg);
+  fill: var(--color-svg);
 }
