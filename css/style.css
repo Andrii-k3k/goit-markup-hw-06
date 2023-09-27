@@ -760,12 +760,7 @@ list:focus {
   fill: var(--color-svg);
 }
 
-.company-list:focus .a-company-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
-}
-
-.company-list:focus .a-company-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+.a-company-link:hover,
+.a-company-link:focus {
+  background-color: #404bbf;
 }
