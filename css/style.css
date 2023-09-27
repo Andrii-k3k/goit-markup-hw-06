@@ -571,6 +571,7 @@ list:focus {
 }
 
 .a-company-link{
+  cursor: pointer;
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -591,4 +592,8 @@ list:focus {
 
 .svg-team-icon{
   fill: #f4f4fd;
+}
+
+.svg-company{
+
 }
