@@ -5,6 +5,7 @@
   --color-navy: #2e2f42;
   --color-hover: #404bbf;
   --color-section: #2e2f42;
+  --color-svg: #f4f4fd;
 }
 
 body {
@@ -760,7 +761,11 @@ list:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.p-card-text-invis:hover,
-.p-card-text-invis:focus {
+.card-link:hover .p-card-text-invis,
+.card-link:focus .p-card-text-invis {
   transform: translateY(0%);
+}
+
+.sbv-icon-team {
+  color: var(--color-svg);
 }
