@@ -615,15 +615,12 @@ list:focus {
 }
 
 .footer-page {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 
 .div-two-section-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .ul-social {
