@@ -759,8 +759,3 @@ list:focus {
 .sbv-icon-team {
   fill: var(--color-svg);
 }
-
-.a-company-link:hover,
-.a-company-link:focus {
-  background-color: #404bbf;
-}
