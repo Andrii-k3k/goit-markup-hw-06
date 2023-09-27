@@ -493,14 +493,13 @@ list:focus {
 }
 
 .company-header {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 .company-ul {
@@ -571,7 +570,6 @@ list:focus {
 }
 
 .a-company-link{
-  cursor: pointer;
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -580,20 +578,22 @@ list:focus {
   align-items: center;
   justify-content: center; 
   color:#8e8f99;
+  cursor: pointer;
 }
 
 .a-company-link:hover{
-  border-color: #404bbf; 
+  color: #404bbf;
 }
 
 .a-company-link:focus{
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .svg-team-icon{
-  fill: #f4f4fd;
+  fill: #f4f4fd ;
 }
 
 .svg-company{
-
+  fill: currentColor;
 }
