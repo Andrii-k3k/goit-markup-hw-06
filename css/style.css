@@ -343,6 +343,10 @@ list:focus {
   border-radius: 4px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--CLOUD, #f4f4fd);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-button:hover,
@@ -720,4 +724,20 @@ list:focus {
 .backdrop-button:focus {
   border: none;
   background-color: #404bbf;
+}
+
+/* ДЗ 4  Портфоліо */
+
+.card-link {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-link:hover,
+.card-link:focus {
+  transform: translateY(0%);
+}
+
+.div-img-card {
+  position: relative;
+  overflow: hidden;
 }
