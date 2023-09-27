@@ -347,6 +347,12 @@ list:focus {
 
 .menu-button:hover,
 .menu-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.menu-button:hover,
+.menu-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
@@ -475,6 +481,7 @@ list:focus {
 }
 
 .menu-port-li {
+  display: block;
 }
 
 .li-tree-section {
@@ -703,6 +710,7 @@ list:focus {
 .backdrop-button-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop-button-icon:hover,
 .backdrop-button-icon:focus {
   fill: #ffffff;
@@ -712,5 +720,4 @@ list:focus {
 .backdrop-button:focus {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
 }
