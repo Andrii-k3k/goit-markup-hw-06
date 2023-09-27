@@ -599,3 +599,10 @@ list:focus {
 .svg-company{
   fill: currentColor;
 }
+
+/* ДЗ 4  FOOTER */
+
+.footer-social{
+  display: flex;
+  align-items: baseline;
+}
