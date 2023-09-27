@@ -760,8 +760,7 @@ list:focus {
   fill: var(--color-svg);
 }
 
-.company-list:focus,
-.a-company-link:focus {
+.company-list:focus .a-company-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
