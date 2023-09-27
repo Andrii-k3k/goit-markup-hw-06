@@ -588,3 +588,7 @@ list:focus {
 .a-company-link:focus{
   border-color: #404bbf;
 }
+
+.svg-team-icon{
+  fill: #f4f4fd;
+}
