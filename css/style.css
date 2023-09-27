@@ -89,11 +89,13 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-  url(../images/mainslider.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mainslider.jpg);
   padding: 188px 0;
 }
-  
 
 .logo-text-studio {
   color: var(--color-navy);
@@ -111,15 +113,16 @@ nav .list {
 }
 
 .address-list {
-  transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color);
   padding: 24px 0;
 }
-.linkfirst{transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-
+.linkfirst {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 a .list {
   font-size: 16px;
@@ -139,20 +142,19 @@ a .list {
   color: var(--color-navy);
 }
 
-.li-top-menu{
+.li-top-menu {
   color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.li-top-menu::after{
-  content:'';
+.li-top-menu::after {
+  content: "";
   position: absolute;
-  left: 0; 
+  left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
 }
-
 
 .menu-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -162,13 +164,12 @@ a .list {
   letter-spacing: 0.02em;
   padding: 24px 0;
   position: relative;
-  color: #404bbf; 
-
+  color: #404bbf;
 }
-.menu-link::after{
-  content: '';
+.menu-link::after {
+  content: "";
   position: absolute;
-  left: 0; 
+  left: 0;
   height: 4px;
   bottom: -1px;
   background-color: #404bbf;
@@ -197,7 +198,7 @@ a .list {
   color: #404bbf;
 }
 
-.adress-link:first-child{
+.adress-link:first-child {
   color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -205,8 +206,6 @@ list:hover,
 list:focus {
   color: #404bbf;
 }
-
-
 
 .header-Business-strategy {
   font-size: 20px;
@@ -271,10 +270,9 @@ list:focus {
   width: calc((100% - 72px) / 4);
 }
 
-.team-card-list:first-child{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16), 
-  0px 2px 1px rgba(46, 47, 66, 0.08); 
+.team-card-list:first-child {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-card-list-port {
@@ -386,9 +384,8 @@ list:focus {
 
 .section-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 1px 6px rgba(46, 47, 66, 0.08)
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header {
@@ -491,20 +488,19 @@ list:focus {
 /* ДЗ 4 */
 
 .company-section {
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.company-header{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-    margin-top: 120px;
-    
+.company-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  margin-top: 120px;
 }
 
 .company-ul {
@@ -526,46 +522,44 @@ list:focus {
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
 }
 
-
-.icon-section-two{
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+.icon-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
-  background: var(--CLOUD, #F4F4FD);
+  background: var(--CLOUD, #f4f4fd);
   padding: 24px 100px;
   border-radius: 4px;
   margin-bottom: 8px;
 }
 
-.icon-section-four{
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  gap:24px;
+.icon-section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.list-four-section-icon{
- 
-  
+.list-four-section-icon {
 }
 
-.address-link{
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.address-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-team-icon{
+.a-team-icon {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.a-team-icon:hover,
-.a-team-icon:focus
-{
-background-color: #404bbf;
-} 
+.a-team-icon:hover {
+  background-color: #404bbf;
+}
+.a-team-icon:focus {
+  background-color: #404bbf;
+}
