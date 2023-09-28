@@ -852,6 +852,7 @@ list:focus {
 
 .modal-coment-field {
   width: 360px;
+  margin-bottom: 16px;
 }
 
 .modal-icon {
