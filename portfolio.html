@@ -322,8 +322,48 @@
             </li>
           </ul>
         </div>
+
+        <!-- FOOTER RIGHT -->
+
+        <div class="social-and-search">
+          <p class="p-social-and-search">Subscribe</p>
+          <form class="form-social-and-search">
+            <label class="label-social-and-search"
+              ><input
+                name="name"
+                type="email"
+                placeholder="E-mail"
+                class="input-sub-footer"
+              />
+            </label>
+            <button type="submit" class="btn-accent">
+              Subscribe
+              <svg class="icon-send-svg" width="24" height="24">
+                <use href="images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
+
+      <!-- MODAL  CONTACTS -->
     </footer>
+
+    <!-- MODAL -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop-modal">
+        <button type="button" class="backdrop-button" data-modal-close>
+          <svg class="backdrop-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-back"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <div>
+          <form action=""></form>
+        </div>
+      </div>
+    </div>
 
     <script src="./js/modal.js"></script>
   </body>
