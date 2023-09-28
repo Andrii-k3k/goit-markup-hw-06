@@ -826,3 +826,41 @@ list:focus {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.modal-input {
+  width: 360px;
+  padding: 10px 38px 10px 38px;
+}
+.modal-field {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.modal-coment-field {
+  width: 360px;
+}
+
+.modal-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: transparent;
+  stroke: #404040;
+}
+.modal-agreement,
+::placeholder,
+.modal-label {
+  color: var(--LIGHT-SLATE, #8e8f99);
+  /* Small Text */
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+}
+
+.modal-input,
+.modal-coment-field {
+  border-radius: 4px;
+  border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
