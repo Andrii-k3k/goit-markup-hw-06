@@ -666,6 +666,7 @@ list:focus {
   display: flex;
   flex-direction: column;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   opacity: 0;
@@ -813,4 +814,13 @@ list:focus {
 
 .icon-send-svg {
   margin-left: 16px;
+}
+
+.modal-p {
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
