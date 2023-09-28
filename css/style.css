@@ -864,6 +864,12 @@ list:focus {
   stroke: #404040;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-agreement {
+  display: block;
+  line-height: 1.17;
+}
+
 .modal-agreement,
 ::placeholder {
   color: var(--LIGHT-SLATE, #8e8f99);
@@ -914,4 +920,18 @@ list:focus {
 }
 .modal-checkbox-div {
   margin-bottom: 24px;
+}
+
+.modal-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
