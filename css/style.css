@@ -798,11 +798,10 @@ list:focus {
   color: #ffffff;
 }
 
-.btn-accent {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-
+.btn-accent-footer {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
@@ -815,6 +814,25 @@ list:focus {
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
   margin: 0 auto;
+}
+
+.btn-accent {
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-send-svg {
