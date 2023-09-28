@@ -792,3 +792,11 @@ list:focus {
 .input-sub-footer::placeholder {
   color: #ffffff;
 }
+
+.btn-accent {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
