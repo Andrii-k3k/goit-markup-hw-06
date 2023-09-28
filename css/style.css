@@ -799,9 +799,10 @@ list:focus {
 }
 
 .btn-accent {
-  min-width: 165px;
-  height: 40px;
-  display: flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+
   justify-content: center;
   align-items: center;
   font-weight: 500;
@@ -946,4 +947,8 @@ input:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-agreement-link {
+  color: #4d5ae5;
 }
