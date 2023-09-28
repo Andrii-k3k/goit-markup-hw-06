@@ -273,7 +273,7 @@
 
     <!-- FOOTER -->
 
-    <!-- FOOTER -->
+       <!-- FOOTER -->
 
     <footer class="footer">
       <div class="container div-two-section-footer">
@@ -359,8 +359,81 @@
           </svg>
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
-        <div>
-          <form action=""></form>
+         <form class="modal-form" name="reviews-form">
+        <div class="div-modal-first-form">
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="modal-field">
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                 id="user-name"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp"></use>
+              </svg>
+            </div>
+
+            <label class="modal-label" for="reviews_user_phone">Phone</label>
+            <div class="modal-field">
+              <input
+                class="modal-input"
+                type="tel"
+                name="reviews_user_phone"
+                id="reviews_user_phone"
+              />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp"></use>
+              </svg>
+            </div>
+
+            <label class="modal-label" for="reviews_user_email">Email</label>
+            <div class="modal-field">
+              <input
+                class="modal-input"
+                type="email"
+                name="reviews_user_email"
+                id="reviews_user_email"
+              />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp"></use>
+              </svg>
+            </div>
+
+            <div class="modal-coment">
+              <label class="modal-label" for="reviews_user_comment">
+                Comment
+              </label>
+              <textarea
+                class="modal-coment-field"
+                name="reviews_user_comment"
+                id="reviews_user_comment"
+                rows="4"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+
+            <label class="modal-agreement">
+              <input class="modal-agreement-input" type="checkbox" />
+
+              <span class="modal-checkbox">
+                <svg class="modal-checkbox-icon" width="10" height="10">
+                  <use href=""></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a
+                class="modal-agreement-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Privacy Policy
+              </a>
+            </label>
+
+            <button class="btn btn-accent" type="submit">Send</button>
+          </form>
         </div>
       </div>
     </div>
