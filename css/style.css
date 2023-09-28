@@ -759,3 +759,20 @@ list:focus {
 .sbv-icon-team {
   fill: var(--color-svg);
 }
+
+/* ДЗ 5  */
+.p-social-and-search {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.form-social-and-search {
+  gap: 24px;
+}
+
+.label-social-and-search {
+}
