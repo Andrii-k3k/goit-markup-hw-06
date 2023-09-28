@@ -820,6 +820,9 @@ list:focus {
   margin-left: 16px;
 }
 
+.div-modal-first-form {
+  margin-bottom: 8px;
+}
 .modal-p {
   font-weight: 500;
   line-height: 1.5;
