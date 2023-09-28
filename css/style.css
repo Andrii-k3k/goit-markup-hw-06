@@ -935,3 +935,15 @@ list:focus {
   display: block;
   line-height: 1.17;
 }
+
+input:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.modal-agreement-input:checked + .modal-agreement > .modal-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
