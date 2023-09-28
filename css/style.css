@@ -840,6 +840,12 @@ list:focus {
   margin-bottom: 8px;
 }
 
+.modal-label {
+  line-height: 1.17;
+  display: block;
+  margin-bottom: 4px;
+}
+
 .modal-coment-field {
   width: 360px;
 }
@@ -849,8 +855,9 @@ list:focus {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: transparent;
+  fill: #4d5ae5;
   stroke: #404040;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-agreement,
 ::placeholder,
@@ -862,6 +869,17 @@ list:focus {
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   letter-spacing: 0.48px;
+}
+
+.modal-input {
+  height: 40px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-input,
