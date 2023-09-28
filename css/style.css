@@ -810,3 +810,7 @@ list:focus {
   border: none;
   border-radius: 4px;
 }
+
+.svg-icon-send {
+  margin-left: 16px;
+}
