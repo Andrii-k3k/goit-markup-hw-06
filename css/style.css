@@ -1566,7 +1566,7 @@ input:checked {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
-    width: 100%;
+    width: 584px;
   }
   .icon-section-two,
   .hamburger-open,
@@ -1614,7 +1614,13 @@ input:checked {
     max-width: 1440px;
     margin: 0 auto;
   }
-  .slider-title {
+
+  .footer-social,
+  .page-footer {
+    margin-right: 0;
+  }
+
+  .footer-social .slider-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
