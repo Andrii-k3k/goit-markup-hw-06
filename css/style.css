@@ -882,7 +882,7 @@ list:focus {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: #4d5ae5;
+
   stroke: #404040;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1683,6 +1683,11 @@ input:checked {
   }
   .menu-ul {
     padding: 24px 0;
+  }
+  .a-company-link:focus,
+  .a-company-link:hover {
+    border-color: var(--color-hover);
+    color: var(--color-hover);
   }
 }
 
