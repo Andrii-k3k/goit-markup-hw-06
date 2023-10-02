@@ -231,6 +231,7 @@ list:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-weight: 500;
 }
 
 .header-section-images {
@@ -1240,7 +1241,6 @@ input:checked {
     font-weight: 500;
     line-height: 1.5em;
     margin-bottom: 72px;
-    padding: 0 16px 0 16px;
   }
 
   .icon-section-two {
@@ -1567,6 +1567,10 @@ input:checked {
   @media screen and (min-width: 768px) {
     .container {
       width: 428px;
+    }
+
+    .paragraf-business-strategy {
+      font-weight: 500;
     }
   }
 }
