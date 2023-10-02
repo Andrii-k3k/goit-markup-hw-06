@@ -1654,7 +1654,6 @@ input:checked {
     letter-spacing: 0.72px;
   }
   .list-business-strategy {
-    width: 353px;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
@@ -1702,6 +1701,9 @@ input:checked {
     border-color: var(--color-hover);
     color: var(--color-hover);
   }
+  .company-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 @media screen and (min-width: 768px) {
