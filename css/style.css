@@ -1521,6 +1521,7 @@ input:checked {
       url(../images/slider-desk@2x.jpg);
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 427.95px) {
   .mobile-social-item {
   }
@@ -1563,12 +1564,13 @@ input:checked {
       padding: 24px 0px;
     }
   }
-}
-@media screen and (min-width: 428px) {
-  .container {
-    width: 428px;
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 428px;
+    }
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     width: 584px;
