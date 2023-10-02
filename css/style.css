@@ -1013,7 +1013,9 @@ input:checked {
       width: 428px;
     }
   }
-
+  .ul-two-section {
+    gap: 72px;
+  }
   .header-container {
     display: flex;
     align-items: center;
@@ -1233,15 +1235,12 @@ input:checked {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .paragraf-business-strategy {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
-    margin-bottom: 72px;
   }
 
   .icon-section-two {
@@ -1522,7 +1521,8 @@ input:checked {
       url(../images/slider-desk@2x.jpg);
   }
 }
-
+.container {
+}
 @media only screen and (min-width: 320px) and (max-width: 427.95px) {
   .mobile-social-item {
   }
