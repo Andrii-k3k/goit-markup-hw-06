@@ -1005,7 +1005,7 @@ input:checked {
   }
 
   .container {
-    min-width: 320px;
+    width: 320px;
     max-width: 428px;
 
     margin: 0 auto;
@@ -1218,7 +1218,7 @@ input:checked {
   }
   .mobile-socials-icon {
   }
-  .div-strategy {
+  .section-business-strategy {
     padding: 96px 0;
   }
   .ul-two-section {
@@ -1270,8 +1270,10 @@ input:checked {
     font-weight: 700;
     line-height: 1.11em;
     margin-bottom: 8px;
+    text-align: center;
   }
-  .list-four-section-icon {
+
+  .sec .list-four-section-icon {
     width: 40px;
     height: 40px;
   }
@@ -1433,9 +1435,8 @@ input:checked {
   }
   .social-and-search,
   .footer-social {
-    text-align: center;
     width: 100%;
-    margin-bottom: 72px;
+
     margin-right: 0;
     text-align: center;
   }
