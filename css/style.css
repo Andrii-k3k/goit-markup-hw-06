@@ -121,9 +121,6 @@ nav .list {
   color: var(--color);
   padding: 24px 0;
 }
-.linkfirst {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 a .list {
   font-size: 16px;
@@ -147,7 +144,19 @@ a .list {
   color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.li-top-menu::after {
+.menu-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  position: relative;
+  color: #2e2f42;
+}
+
+.linkfirst::after {
+  width: 100%;
   content: "";
   position: absolute;
   left: 0;
@@ -157,24 +166,9 @@ a .list {
   border-radius: 2px;
 }
 
-.menu-link {
+.linkfirst {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  position: relative;
   color: #404bbf;
-}
-.menu-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 4px;
-  bottom: -1px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .logo {
@@ -255,9 +249,9 @@ list:focus {
   padding-bottom: 120px;
 }
 .hamburger-open,
-.menu-container{
-display: none;
-} 
+.menu-container {
+  display: none;
+}
 .team-header {
   font-size: 36px;
   line-height: 1.11;
@@ -980,11 +974,6 @@ input:checked {
   color: #4d5ae5;
 }
 
-.menu-link.linkfirst::after,
-.menu-link:active::after {
-  background-color: red;
-}
-
 /* MOBILE ADAPTIVE MENU */
 .visually-hidden {
   position: absolute;
@@ -1571,8 +1560,8 @@ input:checked {
     .logo-footer-span {
       color: var(--CLOUD, #f4f4fd);
     }
-    .li-top-menu{
-          padding: 24px 0px;
+    .li-top-menu {
+      padding: 24px 0px;
     }
   }
 }
@@ -1583,7 +1572,7 @@ input:checked {
   }
   .icon-section-two,
   .hamburger-open,
-  .menu-container  {
+  .menu-container {
     display: none;
   }
 
@@ -1688,12 +1677,15 @@ input:checked {
     padding-left: 108px;
   }
 
-  .footer-page{
-        margin-right: 24px;
-        margin-bottom: 72px;
-}
+  .footer-page {
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+  .menu-ul {
+    padding: 24px 0;
   }
 }
+
 @media screen and (min-width: 768px) {
   .menu-toggle {
     display: none;
